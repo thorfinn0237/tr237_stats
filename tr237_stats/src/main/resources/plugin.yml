@@ -1,0 +1,24 @@
+name: tr237_stats
+version: 1.0
+main: tr237.tr237_stats.Tr237_stats
+api-version: "1.21"
+commands:
+  stats:
+    description: View player kills, deaths, and K/D ratio
+    usage: /stats [player]
+    permission: tr237.stats.use
+  topkills:
+    description: View top 10 players by kills
+    usage: /topkills
+    permission: tr237.stats.use
+  statsreset:
+    description: Reset a player's statistics
+    usage: /statsreset <player>
+    permission: tr237.stats.admin
+permissions:
+  tr237.stats.use:
+    description: Allows viewing stats and top kills
+    default: true
+  tr237.stats.admin:
+    description: Allows resetting player stats
+    default: op

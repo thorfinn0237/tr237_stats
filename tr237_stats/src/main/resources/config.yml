@@ -1,0 +1,15 @@
+messages:
+  no-permission: "&cYou do not have permission to use this command."
+  only-players: "&cOnly players can view their own stats without specifying a name."
+  player-not-found: "&cNo stats found for &e%player%&c."
+  reset-success: "&aReset statistics for &e%player%&a."
+  top-header: "&6&l=== Top 10 Kills ==="
+  top-empty: "&7No player statistics recorded yet."
+  top-entry: "&e#%rank% &f%player% &7- &c%kills% Kills &8(&7K/D: &f%kd%&8)"
+  stats-card:
+    - "&8&m------------------------"
+    - "&6&lStats: &e%player%"
+    - "&aKills: &f%kills%"
+    - "&cDeaths: &f%deaths%"
+    - "&bK/D Ratio: &f%kd%"
+    - "&8&m------------------------"
